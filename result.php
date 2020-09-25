@@ -33,10 +33,10 @@ get_header();
 
 	<script>
 	$(document).ready(function () {
-		$('.page-template-result.wp-block-button__link').click(function () {
-			$(this).find('.page-template-result.wp-block-column:nth-child(2)').show();
+		$('.show').hover(function () {
+			$(this).find('.description').show();
 		}, function () {
-			$(this).find('.page-template-result.wp-block-column:nth-child(2)').hide();
+			$(this).find('.description').hide();
 		});
 	});
 
