@@ -26,9 +26,6 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 
-		<div class="font-result"><?php the_field('font-result'); ?></div>
-		<div class="font-description"><?php the_field('font-description'); ?></div>
-
 	</main><!-- #main -->
 
 <?php
