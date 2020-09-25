@@ -33,7 +33,7 @@ get_header();
 
 	<script>
 	$(document).ready(function () {
-		$('.page-template-result.wp-block-button__link').hover(function () {
+		$('.page-template-result.wp-block-button__link').click(function () {
 			$(this).find('.page-template-result.wp-block-column:nth-child(2)').show();
 		}, function () {
 			$(this).find('.page-template-result.wp-block-column:nth-child(2)').hide();
