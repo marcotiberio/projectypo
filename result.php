@@ -31,17 +31,6 @@ get_header();
 
 	</main><!-- #main -->
 
-	<script>
-	$(document).ready(function () {
-		$('.show').hover(function () {
-			$(this).find('.description').show();
-		}, function () {
-			$(this).find('.description').hide();
-		});
-	});
-
-</script>
-
 <?php
 get_sidebar();
 get_footer();
