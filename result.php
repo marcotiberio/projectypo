@@ -31,6 +31,17 @@ get_header();
 
 	</main><!-- #main -->
 
+	<script>
+	$(document).ready(function () {
+		$('.page-template-result.wp-block-button__link').hover(function () {
+			$(this).find('.page-template-result.wp-block-column:nth-child(2)').show();
+		}, function () {
+			$(this).find('.page-template-result.wp-block-column:nth-child(2)').hide();
+		});
+	});
+
+</script>
+
 <?php
 get_sidebar();
 get_footer();
