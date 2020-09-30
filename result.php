@@ -20,10 +20,10 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
-
-		<div class="font-result"><?php the_field('font_result'); ?></div>
-		<div class="font-description"><?php the_field('font_description'); ?></div>
-
+		<div class="results">
+			<div class="font-result"><?php the_field('font_result'); ?></div>
+			<div class="font-description"><?php the_field('font_description'); ?></div>
+		</div>
 	</main><!-- #main -->
 
 <?php
